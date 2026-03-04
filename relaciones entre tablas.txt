@@ -1,0 +1,21 @@
+Relaciones entre tablas
+film - actor 1:N
+film - lenguaje 1:N
+film - category 1:N
+customer - film 1:N
+customer - rental 1:1
+costumer - payment 1:1
+inventory - film 1:N
+store - inventory 1:1
+store - staff 1:N
+store - customer 1:N
+store - address 1:1
+city - adress 1:N
+country - city 1:N
+staff - adress 1:1
+staff - payment 1:N
+
+Beltrán Gastélum
+Gómez Astorga
+
+
